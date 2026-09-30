@@ -1,0 +1,16 @@
+name: ci
+on:
+  push:
+    branches: [main]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+---
+- just
+- a
+- sequence
+---
+"a bare scalar document"
+---

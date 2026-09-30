@@ -1,0 +1,18 @@
+# Built binary, anchored to the repo root so it never matches cmd/<name>/.
+/k8s-api-deprecation-scan
+/dist/
+
+# Go build and test output.
+/*.exe
+/*.test
+/*.out
+coverage.out
+
+# Editors and OS noise.
+.idea/
+.vscode/
+.DS_Store
+
+# Fixtures are part of the test suite and always tracked.
+!testdata/**
+!examples/**
