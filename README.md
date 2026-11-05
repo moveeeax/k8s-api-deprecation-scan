@@ -125,3 +125,7 @@ Fixtures live in `internal/scan/testdata` and `examples/manifests`.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+**Archived on 2026-11-05.** Pluto already does static file scanning, `helm template | pluto detect -`, `--target-versions` and DEPRECATED/REMOVED levels with CI exit codes. It also checks live Helm releases. kube-no-trouble covers the live-cluster side. This repo has no distinct angle, and its hand-maintained table (last entry: flowcontrol v1beta3, removed 1.32) will go stale without a maintainer.
