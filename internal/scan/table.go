@@ -30,7 +30,9 @@ func kinds(apiVersion, deprecatedIn, removedIn, replacement string, ks ...string
 }
 
 // builtinRules is the table the scanner checks against. Sources: the upstream
-// "Deprecated API Migration Guide" for each minor release.
+// "Deprecated API Migration Guide" for each minor release
+// (https://kubernetes.io/docs/reference/using-api/deprecation-guide/).
+// Last checked 2026-11-05: the guide lists no removals after 1.32.
 var builtinRules = concat(
 	// Removed in 1.16.
 	kinds("apps/v1beta1", "1.9", "1.16", "apps/v1", "Deployment", "DaemonSet", "ReplicaSet", "StatefulSet"),
