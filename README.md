@@ -1,7 +1,7 @@
 # k8s-api-deprecation-scan
 
 [![ci](https://github.com/moveeeax/k8s-api-deprecation-scan/actions/workflows/ci.yml/badge.svg)](https://github.com/moveeeax/k8s-api-deprecation-scan/actions/workflows/ci.yml)
-[![Go](https://img.shields.io/badge/go-1.23%2B-00ADD8)](https://go.dev)
+[![Go](https://img.shields.io/badge/go-1.26%2B-00ADD8)](https://go.dev)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 Scan Kubernetes manifests for `apiVersion`s deprecated or removed at a target cluster version, before the upgrade breaks them.
